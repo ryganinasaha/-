@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "article.css",
+	"sources": [
+		"../sass/article.sass"
+	],
+	"sourcesContent": [
+		"@mixin flexable($dir: row, $justify: flex-start, $align: flex-start) {\n    display: flex;\n    flex-direction: $dir;\n    justify-content: $justify;\n    align-items: $align; }\n\n.article {\n    &__img {\n        @include flexable($justify: center, $align: center);\n        img {\n            display: block;\n            width: 100vw; } }\n    &__title {}\n    &__paragraph {}\n    &__more-button {} }\n"
+	],
+	"names": [],
+	"mappings": ";AAOK,AAAD,aAAM,CAAC;EANP,OAAO,EAAE,IAAI;EACb,cAAc,EAFI,GAAG;EAGrB,eAAe,EAKiB,MAAM;EAJtC,WAAW,EAIqC,MAAM;CAG7B;;;AAJxB,AAEG,aAFE,CAEF,GAAG,CAAC;EACA,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,KAAK;CAAG"
+}
